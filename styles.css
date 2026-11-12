@@ -827,8 +827,8 @@ img {
 .hero-line {
   display: block;
   overflow: hidden;
-  padding-bottom: 0.18em;
-  margin-bottom: -0.18em;
+  overflow-clip-margin: 0.5em;
+  padding-bottom: 0.2em;
 }
 
 .hero-line > span {
@@ -838,12 +838,15 @@ img {
 }
 
 .hero-line-accent {
-  padding-bottom: 0.22em;
-  margin-bottom: -0.22em;
+  padding-bottom: 0.25em;
+  overflow-clip-margin: 0.6em;
 }
 
 .hero-line-accent > span {
-  padding-right: 0.35em;
+  display: inline-block;
+  vertical-align: bottom;
+  padding-right: 0.6em;
+  padding-bottom: 0.12em;
   font-size: 0.88em;
   background: var(--gradient);
   -webkit-background-clip: text;
