@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giovanni Mugavero — Full Stack Developer in formazione</title>
+  <meta name="description" content="Portfolio di Giovanni Mugavero, studente di Informatica a Catania. 14 progetti tra web, app, AI, game e bot costruiti tra scuola, robotica e curiosità." />
+  <meta name="author" content="Giovanni Mugavero" />
+  <meta name="theme-color" content="#050509" />
+  <meta property="og:title" content="Giovanni Mugavero — Portfolio" />
+  <meta property="og:description" content="14 progetti tra AI, web, app, giochi e bot. Un filo conduttore: capire come funzionano le cose." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="it_IT" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="projects.css" />
+  <link rel="stylesheet" href="sections.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora-blob aurora-a"></span>
+    <span class="aurora-blob aurora-b"></span>
+    <span class="aurora-blob aurora-c"></span>
+  </div>
+  <div class="cursor" aria-hidden="true">
+    <span class="cursor-dot"></span>
+    <span class="cursor-ring"></span>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Giovanni Mugavero — home">
+        <span class="brand-mark">GM</span>
+        <span class="brand-copy">
+          <strong>Giovanni Mugavero</strong>
+          <small>Full Stack in formazione</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navigazione principale">
+        <a href="#about">Chi sono</a>
+        <a href="#skills">Competenze</a>
+        <a href="#projects">Progetti</a>
+        <a href="#experience">Esperienze</a>
+        <a href="#goals">Obiettivi</a>
+      </nav>
+
+      <div class="header-actions">
+        <span class="availability"><i></i> Disponibile</span>
+        <a class="btn btn-small btn-primary" href="#contact">Parliamone <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" type="button" aria-label="Apri il menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <p class="mobile-menu-label">Naviga</p>
+      <nav aria-label="Navigazione mobile">
+        <a href="#about"><span>01</span> Chi sono</a>
+        <a href="#skills"><span>02</span> Competenze</a>
+        <a href="#projects"><span>03</span> Progetti</a>
+        <a href="#experience"><span>04</span> Esperienze</a>
+        <a href="#toolkit"><span>05</span> Toolbox</a>
+        <a href="#goals"><span>06</span> Obiettivi</a>
+        <a href="#contact"><span>07</span> Contatti</a>
+      </nav>
+      <div class="mobile-menu-foot">
+        <a href="mailto:mugaverogiovanni2506@gmail.com">mugaverogiovanni2506@gmail.com</a>
+        <span>Misterbianco (CT) · Italia</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            Portfolio 2026 · Studente di Informatica
+          </div>
+
+          <h1 class="hero-title">
+            <span class="hero-line"><span>Giovanni</span></span>
+            <span class="hero-line hero-line-accent"><span>Mugavero</span></span>
+          </h1>
+
+          <p class="hero-role">
+            <span>Full Stack Developer in formazione</span>
+            <span class="role-sep" aria-hidden="true">/</span>
+            <span>Builder di cose strane e utili</span>
+          </p>
+
+          <p class="hero-desc">
+            Ho 18 anni, vivo a Misterbianco e trasformo curiosità in progetti:
+            assistenti AI, piattaforme web, app e piccoli ecosistemi digitali.
+            Mi piace capire come funziona tutto — e poi farlo funzionare meglio.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              Esplora i progetti
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" /></svg>
+            </a>
+            <a class="btn btn-ghost" href="assets/Giovanni-Mugavero-CV.pdf" target="_blank" rel="noreferrer">
+              Scarica il CV
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10m0 0 4-4m-4 4-4-4M4 16h12" /></svg>
+            </a>
+          </div>
+
+          <div class="hero-contact">
+            <a href="mailto:mugaverogiovanni2506@gmail.com">
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14v10H3z" /><path d="m3 6 7 5 7-5" /></svg>
+              mugaverogiovanni2506@gmail.com
+            </a>
+            <a href="tel:+393276613342">
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3h3l1.5 4-2 1.5a11 11 0 0 0 4 4L13 10.5 17 12v3a2 2 0 0 1-2 2C8.3 17 3 11.7 3 5a2 2 0 0 1 2-2Z" /></svg>
+              327 661 3342
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <strong><span data-count="14">14</span></strong>
+              <span>progetti costruiti</span>
+            </div>
+            <div class="stat">
+              <strong><span data-count="4">4</span><em>+</em></strong>
+              <span>anni di codice</span>
+            </div>
+            <div class="stat">
+              <strong><span data-count="3">3</span></strong>
+              <span>esperienze di robotica</span>
+            </div>
+            <div class="stat">
+              <strong>C1</strong>
+              <span>inglese in preparazione</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="terminal-wrap" data-tilt>
+            <div class="terminal-halo" aria-hidden="true"></div>
+            <div class="terminal">
+              <div class="term-head">
+                <div class="term-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                <span class="term-title">giovanni@portfolio — zsh</span>
+                <span class="term-live"><i></i> online</span>
+              </div>
+              <div class="term-body">
+                <div class="term-line"><span class="prompt">➜</span><span class="cmd">whoami</span></div>
+                <div class="term-out">Giovanni Mugavero</div>
+                <div class="term-line"><span class="prompt">➜</span><span class="cmd">cat focus.json</span></div>
+                <pre class="term-json"><span class="p">{</span>
+  <span class="k">"ruolo"</span><span class="p">:</span> <span class="s">"Full Stack Developer"</span><span class="p">,</span>
+  <span class="k">"base"</span><span class="p">:</span> <span class="s">"Misterbianco (CT)"</span><span class="p">,</span>
+  <span class="k">"focus"</span><span class="p">:</span> <span class="p">[</span><span class="s">"AI"</span><span class="p">,</span> <span class="s">"Web"</span><span class="p">,</span> <span class="s">"App"</span><span class="p">],</span>
+  <span class="k">"stato"</span><span class="p">:</span> <span class="s">"disponibile"</span>
+<span class="p">}</span></pre>
+                <div class="term-line"><span class="prompt">➜</span><span class="cmd">./next_challenge.sh</span><span class="term-cursor" aria-hidden="true"></span></div>
+                <div class="term-result"><span>→</span> costruire qualcosa che qualcuno usa davvero</div>
+              </div>
+              <div class="term-foot">
+                <div class="term-tags"><span>Python</span><span>JS</span><span>Flutter</span></div>
+                <span class="term-clock" data-clock>Europe/Rome</span>
+              </div>
+            </div>
+
+            <div class="orbit-chip orbit-chip-a" aria-hidden="true">Python</div>
+            <div class="orbit-chip orbit-chip-b" aria-hidden="true">AI</div>
+            <div class="orbit-chip orbit-chip-c" aria-hidden="true">Flutter</div>
+            <div class="orbit-chip orbit-chip-d" aria-hidden="true">Node.js</div>
+          </div>
+
+          <div class="hero-note">
+            <span class="hero-note-icon">↳</span>
+            <p><strong>Disponibile dal lunedì al venerdì</strong> nel pomeriggio per lavoro part-time, stage o progetti.</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#about" aria-label="Scorri per scoprire">
+        <span>Scorri</span>
+        <i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Python</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Flutter</span><i>✦</i><span>Node.js</span><i>✦</i><span>AI locale</span><i>✦</i><span>React</span><i>✦</i><span>Arduino</span><i>✦</i><span>UI che respira</span><i>✦</i>
+        <span>Python</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Flutter</span><i>✦</i><span>Node.js</span><i>✦</i><span>AI locale</span><i>✦</i><span>React</span><i>✦</i><span>Arduino</span><i>✦</i><span>UI che respira</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-top reveal">
+          <span class="section-num">01</span>
+          <span class="section-label">Chi sono</span>
+          <span class="section-line"></span>
+          <span class="section-note">Misterbianco · Catania</span>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-visual reveal">
+            <div class="id-card">
+              <div class="id-shine" aria-hidden="true"></div>
+              <div class="id-top">
+                <span>PROFILE / 001</span>
+                <span class="id-status"><i></i> attivo</span>
+              </div>
+  <div class="id-photo-wrap" aria-hidden="true">
+    <img class="id-photo" src="assets/profile.jpg" alt="" />
+  </div>
+              <div class="id-orbit" aria-hidden="true">
+                <span class="id-orbit-ring ring-1"></span>
+                <span class="id-orbit-ring ring-2"></span>
+                <span class="id-orbit-dot dot-1"></span>
+                <span class="id-orbit-dot dot-2"></span>
+                <span class="id-orbit-dot dot-3"></span>
+              </div>
+              <div class="id-bottom">
+                <div>
+                  <strong>Giovanni Mugavero</strong>
+                  <span>Full Stack Developer in formazione</span>
+                </div>
+                <div class="id-barcode" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <span class="id-tag id-tag-a">AI</span>
+              <span class="id-tag id-tag-b">Web</span>
+              <span class="id-tag id-tag-c">App</span>
+            </div>
+
+            <div class="quick-facts">
+              <div><span>Età</span><strong>18 anni</strong></div>
+              <div><span>Scuola</span><strong>IT Archimede · 5° anno</strong></div>
+              <div><span>Lingue</span><strong>ITA · ENG C1 in prep.</strong></div>
+              <div><span>Patente</span><strong>A1 e B · mezzo proprio</strong></div>
+            </div>
+          </div>
+
+          <div class="about-copy">
+            <h2 class="section-title reveal">
+              Curioso per natura.<br />
+              <span class="gradient-text">Costruttore per abitudine.</span>
+            </h2>
+
+            <div class="about-text reveal">
+              <p>
+                Frequento il quinto anno di Informatica all'<strong>IT Archimede di Catania</strong>.
+                La parte che mi entusiasma di più non è scrivere righe di codice: è vedere un'idea
+                diventare qualcosa che si può aprire, usare, rompere e migliorare.
+              </p>
+              <p>
+                Così sono nati <strong>Nova</strong>, un assistente AI che controlla PC e telefono,
+                <strong>Lumia Barber</strong>, un ecosistema digitale per un salone, e
+                <strong>GiovaBot</strong>, un bot WhatsApp che è praticamente un piccolo mondo.
+                Ogni progetto è una scusa per imparare qualcosa che non sapevo fare.
+              </p>
+              <p>
+                Fuori dallo schermo organizzo gare di robotica e ho lavorato in segreteria.
+                Due contesti diversi che mi hanno insegnato la stessa cosa:
+                <strong>le persone vengono prima della tecnologia</strong>.
+              </p>
+            </div>
+
+            <div class="about-pillars reveal">
+              <div class="pillar">
+                <span class="pillar-icon">01</span>
+                <div>
+                  <strong>Costruisco per capire</strong>
+                  <p>Prototipo, testo, sbaglio, rifaccio. È così che imparo davvero.</p>
+                </div>
+              </div>
+              <div class="pillar">
+                <span class="pillar-icon">02</span>
+                <div>
+                  <strong>Cuore full-stack</strong>
+                  <p>Dall'interfaccia al database, passando per API, AI e deploy.</p>
+                </div>
+              </div>
+              <div class="pillar">
+                <span class="pillar-icon">03</span>
+                <div>
+                  <strong>Occhio al dettaglio</strong>
+                  <p>Un progetto funziona meglio quando anche il dettaglio ha senso.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="soft-skills reveal">
+              <div class="soft-skills-head">
+                <h3>Fuori dal codice</h3>
+                <p>Le cose che mi ricaricano.</p>
+              </div>
+              <div class="soft-tags">
+                <span>Motori</span>
+                <span>Videogiochi</span>
+                <span>Simracing</span>
+              </div>
+            </div>
+            <p class="hobby-note reveal">Faccio competizioni di simracing, non a grandi livelli: mi piace la precisione del setup, la costanza e migliorare decimo dopo decimo.</p>
+      <div class="container">
+        <div class="section-top reveal">
+          <span class="section-num">02</span>
+          <span class="section-label">Competenze</span>
+          <span class="section-line"></span>
+          <span class="section-note">Quello che so fare oggi</span>
+        </div>
+
+        <div class="section-heading reveal">
+          <h2 class="section-title">
+            Le basi solide,<br />
+            <span class="gradient-text">la curiosità sopra.</span>
+          </h2>
+          <p>
+            Non amo i livelli a caso: queste percentuali raccontano quanto mi sento
+            autonomo, non quanto mi piacciono le tecnologie. Il resto lo imparo
+            costruendo.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon">&lt;/&gt;</span>
+              <div>
+                <h3>Frontend</h3>
+                <p>Interfacce, layout e micro-interazioni.</p>
+              </div>
+            </div>
+            <div class="skill-list">
+              <div class="skill-row"><div><span>HTML5</span><strong>92%</strong></div><div class="skill-bar"><i style="--value:92%"></i></div></div>
+              <div class="skill-row"><div><span>CSS3</span><strong>88%</strong></div><div class="skill-bar"><i style="--value:88%"></i></div></div>
+              <div class="skill-row"><div><span>JavaScript</span><strong>84%</strong></div><div class="skill-bar"><i style="--value:84%"></i></div></div>
+              <div class="skill-row"><div><span>React</span><strong>66%</strong></div><div class="skill-bar"><i style="--value:66%"></i></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon">{ }</span>
+              <div>
+                <h3>Backend &amp; AI</h3>
+                <p>Logica, API e modelli che girano in locale.</p>
+              </div>
+            </div>
+            <div class="skill-list">
+              <div class="skill-row"><div><span>Python</span><strong>86%</strong></div><div class="skill-bar"><i style="--value:86%"></i></div></div>
+              <div class="skill-row"><div><span>Node.js</span><strong>76%</strong></div><div class="skill-bar"><i style="--value:76%"></i></div></div>
+              <div class="skill-row"><div><span>FastAPI</span><strong>72%</strong></div><div class="skill-bar"><i style="--value:72%"></i></div></div>
+              <div class="skill-row"><div><span>RAG &amp; Ollama</span><strong>78%</strong></div><div class="skill-bar"><i style="--value:78%"></i></div></div>
+              <div class="skill-row"><div><span>AI generativa</span><strong>74%</strong></div><div class="skill-bar"><i style="--value:74%"></i></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon">▣</span>
+              <div>
+                <h3>App &amp; Game</h3>
+                <p>Prodotti che vivono su un telefono o in un mondo.</p>
+              </div>
+            </div>
+            <div class="skill-list">
+              <div class="skill-row"><div><span>Flutter</span><strong>70%</strong></div><div class="skill-bar"><i style="--value:70%"></i></div></div>
+              <div class="skill-row"><div><span>Dart</span><strong>68%</strong></div><div class="skill-bar"><i style="--value:68%"></i></div></div>
+              <div class="skill-row"><div><span>Java</span><strong>54%</strong></div><div class="skill-bar"><i style="--value:54%"></i></div></div>
+              <div class="skill-row"><div><span>Unity</span><strong>40%</strong></div><div class="skill-bar"><i style="--value:40%"></i></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon">⌘</span>
+              <div>
+                <h3>Tool &amp; Design</h3>
+                <p>Il setup con cui porto le idee fuori dalla testa.</p>
+              </div>
+            </div>
+            <div class="skill-list">
+              <div class="skill-row"><div><span>VS Code</span><strong>95%</strong></div><div class="skill-bar"><i style="--value:95%"></i></div></div>
+              <div class="skill-row"><div><span>Git / GitHub</span><strong>78%</strong></div><div class="skill-bar"><i style="--value:78%"></i></div></div>
+              <div class="skill-row"><div><span>Office</span><strong>90%</strong></div><div class="skill-bar"><i style="--value:90%"></i></div></div>
+              <div class="skill-row"><div><span>Canva</span><strong>85%</strong></div><div class="skill-bar"><i style="--value:85%"></i></div></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="learning-strip reveal">
+          <div class="learning-title">
+            <span class="pulse-dot"></span>
+            <span>Sto imparando ora</span>
+          </div>
+          <div class="learning-tags">
+            <span>React avanzato</span>
+            <span>Architetture RAG</span>
+            <span>FastAPI</span>
+            <span>Progettazione di prodotto</span>
+            <span>Inglese C1</span>
+          </div>
+        </div>
+
+        <div class="soft-skills reveal">
+          <div class="soft-skills-head">
+            <h3>Soft skills</h3>
+            <p>Le cose che non si vedono in un commit.</p>
+          </div>
+          <div class="soft-tags">
+            <span>Problem solving</span>
+            <span>Lavoro in team</span>
+            <span>Gestione del tempo</span>
+            <span>Precisione</span>
+            <span>Comunicazione</span>
+            <span>Autonomia</span>
+          </div>
+        </div>
+        <div class="soft-skills reveal">
+          <div class="soft-skills-head">
+            <h3>AI come strumento</h3>
+            <p>Non sono un senior, ma so usarla bene.</p>
+          </div>
+          <p style="color:var(--muted);font-size:12.5px;line-height:1.68;max-width:720px;">
+            Lavoro molto con l'AI per prototipare e imparare, ma la tratto come un acceleratore:
+            verifico sempre il risultato e non la uso come scorciatoia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-top reveal">
+          <span class="section-num">03</span>
+          <span class="section-label">Progetti selezionati</span>
+          <span class="section-line"></span>
+          <span class="section-note">14 progetti · 2024—2026</span>
+        </div>
+
+        <div class="section-heading projects-heading reveal">
+          <h2 class="section-title">
+            Idee che sono diventate<br />
+            <span class="gradient-text">qualcosa di reale.</span>
+          </h2>
+          <p>
+            Web, app, AI, bot e giochi. Ogni card racconta cosa ho costruito,
+            con che cosa e a che punto sono. Clicca per aprire il dettaglio.
+          </p>
+        </div>
+
+        <div class="project-toolbar reveal">
+          <div class="project-filters" role="group" aria-label="Filtra i progetti">
+            <button class="filter is-active" type="button" data-filter="all">Tutti</button>
+            <button class="filter" type="button" data-filter="web">Web</button>
+            <button class="filter" type="button" data-filter="app">App</button>
+            <button class="filter" type="button" data-filter="ai">AI</button>
+            <button class="filter" type="button" data-filter="game">Game</button>
+            <button class="filter" type="button" data-filter="bot">Bot</button>
+          </div>
+          <span class="project-count" id="projectCount">14 progetti</span>
+        </div>
+
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card wide reveal" data-project="nova" data-cats="ai" tabindex="0" role="button" aria-label="Apri il progetto Nova">
+            <div class="project-media">
+              <div class="cover cover-nova" aria-hidden="true">
+                <div class="nova-aura"></div>
+                <div class="nova-ring"></div>
+                <div class="nova-window">
+                  <div class="win-bar"><span></span><span></span><span></span><em>nova / local agent</em></div>
+                  <div class="nova-msg user">Apri download e cerca i file .env</div>
+                  <div class="nova-msg bot"><span class="spark">✦</span> Fatto. 3 file trovati. Cartella aperta.</div>
+                  <div class="nova-tool-row"><span>cerca_file</span><span class="ok">✓ verificato</span><span>2.1s</span></div>
+                </div>
+                <span class="float-chip chip-pc">PC</span>
+                <span class="float-chip chip-android">Windows</span>
+              </div>
+              <span class="project-status status-beta"><i></i> Beta avanzata</span>
+              <span class="project-number">01</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>AI · Desktop assistant</span><span>2026</span></div>
+              <h3>Nova</h3>
+              <p>Assistente AI locale per Windows: 58 strumenti, 73 controlli automatici e voce gestita da Ollama, Whisper e Piper.</p>
+              <div class="project-tags"><span>Python</span><span>Ollama</span><span>FastAPI</span><span>PyQt</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>72%</strong></div>
+                <div class="completion-bar"><i style="--value:72%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="lumia" data-cats="web app" tabindex="0" role="button" aria-label="Apri il progetto Lumia Barber">
+            <div class="project-media">
+              <img src="assets/projects/lumia.webp" alt="Anteprima del sito Lumia Barber" loading="lazy" />
+              <span class="media-tint" aria-hidden="true"></span>
+              <span class="project-status status-live"><i></i> Live</span>
+              <span class="project-number">02</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Web · Mobile · 4 varianti</span><span>2025—26</span></div>
+              <h3>Lumia Barber</h3>
+              <p>Quattro declinazioni per un barbiere: sito React, gestionale, app Expo e backend FastAPI con MongoDB, OAuth ed email Resend.</p>
+              <div class="project-tags"><span>React</span><span>Expo</span><span>FastAPI</span><span>MongoDB</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>95%</strong></div>
+                <div class="completion-bar"><i style="--value:95%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="giovabot" data-cats="bot ai" tabindex="0" role="button" aria-label="Apri il progetto GiovaBot">
+            <div class="project-media">
+              <div class="cover cover-giova" aria-hidden="true">
+                <div class="giova-glow"></div>
+                <div class="phone-shell">
+                  <div class="phone-head"><span class="phone-avatar">G</span><div><strong>GiovaBot</strong><small>online</small></div><span class="phone-menu">⋮</span></div>
+                  <div class="chat-line incoming">Weekend boss: Capo Platano</div>
+                  <div class="chat-line outgoing">.daily</div>
+                  <div class="chat-line incoming accent">+250 crediti · streak 7</div>
+                </div>
+                <span class="coin coin-1">C</span>
+                <span class="coin coin-2">C</span>
+                <span class="coin coin-3">C</span>
+                <div class="giova-stats"><strong>80+</strong><span>comandi</span></div>
+              </div>
+              <span class="project-status status-stable"><i></i> Stabile</span>
+              <span class="project-number">03</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Bot · Community</span><span>2026</span></div>
+              <h3>GiovaBot</h3>
+              <p>Oltre 80 comandi WhatsApp: economia, minigiochi, missioni, achievement e admin, con Groq per l'AI e voce sintetizzata.</p>
+              <div class="project-tags"><span>Node.js</span><span>whatsapp-web.js</span><span>Groq</span><span>edge-tts</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>85%</strong></div>
+                <div class="completion-bar"><i style="--value:85%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="taxiboss" data-cats="web" tabindex="0" role="button" aria-label="Apri il progetto TaxiBoss">
+            <div class="project-media">
+              <img src="assets/projects/taxiboss.webp" alt="Anteprima del sito TaxiBoss" loading="lazy" />
+              <span class="media-tint" aria-hidden="true"></span>
+              <span class="project-status status-progress"><i></i> Demo PWA</span>
+              <span class="project-number">04</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Web · PWA demo</span><span>2025</span></div>
+              <h3>TaxiBoss</h3>
+              <p>Demo nata da un compito scolastico Android: ho ripiegato su una web app con mappa Leaflet simulata, PWA e prenotazione WhatsApp.</p>
+              <div class="project-tags"><span>JavaScript</span><span>Leaflet</span><span>PWA</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>72%</strong></div>
+                <div class="completion-bar"><i style="--value:72%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="siria" data-cats="web" tabindex="0" role="button" aria-label="Apri il progetto Siria Nail Atelier">
+            <div class="project-media">
+              <img src="assets/projects/siria.webp" alt="Anteprima del sito Siria Nail Atelier" loading="lazy" />
+              <span class="media-tint" aria-hidden="true"></span>
+              <span class="project-status status-client"><i></i> Cliente</span>
+              <span class="project-number">05</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Web · One-page</span><span>2025</span></div>
+              <h3>Siria Nail Atelier</h3>
+              <p>Nato come passatempo per mia sorella che fa le unghie: one-page statico con galleria, attestati, branding e prenotazioni WhatsApp.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>87%</strong></div>
+                <div class="completion-bar"><i style="--value:87%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="ncm" data-cats="game web" tabindex="0" role="button" aria-label="Apri il progetto Nomi, Cose e Città">
+            <div class="project-media">
+              <img src="assets/projects/ncm.webp" alt="Anteprima del gioco Nomi, Cose e Città" loading="lazy" />
+              <span class="media-tint" aria-hidden="true"></span>
+              <span class="project-status status-playable"><i></i> Giocabile</span>
+              <span class="project-number">06</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Game · Multiplayer</span><span>2025</span></div>
+              <h3>Nomi, Cose e Città</h3>
+              <p>Nato per non scrivere a mano: stanze, lobby, categorie, timer e punteggi sincronizzati su Socket.IO per giocare con amici e famiglia.</p>
+              <div class="project-tags"><span>Node.js</span><span>Socket.IO</span><span>Express</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>85%</strong></div>
+                <div class="completion-bar"><i style="--value:85%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="schoolbot" data-cats="ai web" tabindex="0" role="button" aria-label="Apri il progetto SchoolBot">
+            <div class="project-media">
+              <img src="assets/projects/chatbot-istituti.webp" alt="Anteprima dell'assistente scolastico SchoolBot" loading="lazy" />
+              <span class="media-tint" aria-hidden="true"></span>
+              <span class="project-status status-beta"><i></i> Beta</span>
+              <span class="project-number">07</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>AI · RAG</span><span>2026</span></div>
+              <h3>SchoolBot</h3>
+              <p>Tre prototipi RAG riuniti in un caso studio: risposte ancorate ai documenti scolastici, citazioni e avatar 3D.</p>
+              <div class="project-tags"><span>FastAPI</span><span>ChromaDB</span><span>Ollama</span><span>three.js</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>78%</strong></div>
+                <div class="completion-bar"><i style="--value:78%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card wide reveal" data-project="midnight" data-cats="game app" tabindex="0" role="button" aria-label="Apri il progetto Midnight Motors">
+            <div class="project-media">
+              <div class="cover cover-midnight" aria-hidden="true">
+                <img class="mm-scene" src="assets/projects/alfa_147.png" alt="" />
+                <span class="mm-shade"></span>
+                <span class="mm-sun"></span>
+                <span class="mm-grid"></span>
+                <div class="mm-title">MIDNIGHT<span>MOTORS</span></div>
+                <img class="mm-car" src="assets/projects/bmw_320i.png" alt="" />
+                <div class="mm-hud"><span>BAY 03</span><strong>€ 1.240</strong><small>incasso</small></div>
+              </div>
+              <span class="project-status status-progress"><i></i> In sviluppo</span>
+              <span class="project-number">08</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Game · Tycoon mobile</span><span>2026</span></div>
+              <h3>Midnight Motors</h3>
+              <p>Tycoon di riparazioni in Flutter: garage, mercato, lavori a tempo e sei missioni. Non è un racing game, ma un gestionale con salvataggi locali.</p>
+              <div class="project-tags"><span>Flutter</span><span>Dart</span><span>SharedPreferences</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>70%</strong></div>
+                <div class="completion-bar"><i style="--value:70%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="lucky" data-cats="game app" tabindex="0" role="button" aria-label="Apri il progetto Lucky Debt">
+            <div class="project-media">
+              <div class="cover cover-lucky" aria-hidden="true">
+                <div class="lucky-glow"></div>
+                <div class="slot">
+                  <div class="slot-head">LUCKY DEBT</div>
+                  <div class="reels"><span>7</span><span>♦</span><span>7</span></div>
+                  <div class="slot-foot">SPIN</div>
+                </div>
+                <div class="debt-badge"><small>DEBITO</small><strong>€ 12.400</strong></div>
+              </div>
+              <span class="project-status status-prototype"><i></i> Concept</span>
+              <span class="project-number">09</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Game · Concept visivo</span><span>2026</span></div>
+              <h3>Lucky Debt</h3>
+              <p>Nato dall’idea di far diventare GiovaBot un gioco: concept Flutter con mappa CustomPainter e zoom verso il casinò. Logica ancora da costruire.</p>
+              <div class="project-tags"><span>Flutter</span><span>CustomPainter</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>18%</strong></div>
+                <div class="completion-bar"><i style="--value:18%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="torn" data-cats="bot" tabindex="0" role="button" aria-label="Apri il progetto Torn Bot">
+            <div class="project-media">
+              <div class="cover cover-torn" aria-hidden="true">
+                <div class="torn-term">
+                  <div class="win-bar"><span></span><span></span><span></span><em>torn_bot.py</em></div>
+                  <pre><span class="comment"># live feed</span>
+[12:04] DM → notifica
+[12:06] vendita <span class="green">$4,200</span>
+[12:09] energia piena
+<span class="green">● online</span></pre>
+                </div>
+                <div class="push-card"><div class="push-top"><span></span> Torn</div><strong>Nuova vendita</strong><p>3x Xanax · $4,200</p><small>ora</small></div>
+              </div>
+              <span class="project-status status-use"><i></i> In uso</span>
+              <span class="project-number">10</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Bot · Automazione</span><span>2025—26</span></div>
+              <h3>Torn Bot</h3>
+              <p>Notificatore Python per Torn: vendite, DM, energia e cooldown via ntfy e CallMeBot, con stato persistente e healthchecks.io.</p>
+              <div class="project-tags"><span>Python</span><span>REST API</span><span>ntfy</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>85%</strong></div>
+                <div class="completion-bar"><i style="--value:85%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="markx" data-cats="ai" tabindex="0" role="button" aria-label="Apri il progetto Mark-X">
+            <div class="project-media">
+              <div class="cover cover-mark" aria-hidden="true">
+                <img class="mark-face" src="assets/projects/face.png" alt="" />
+                <span class="mark-shade"></span>
+                <span class="scan-lines"></span>
+                <div class="mark-title">MARK <span>X</span></div>
+                <div class="mark-sub">VOICE · LOCAL · MEMORY</div>
+                <div class="waveform" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <span class="project-status status-study"><i></i> Studio guidato</span>
+              <span class="project-number">11</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>AI · Studio guidato</span><span>2025</span></div>
+              <h3>Mark-X</h3>
+              <p>Assistente vocale Windows costruito seguendo il tutorial di FatihMakes: Vosk, Tkinter, edge-tts e LLM via OpenRouter e Gemini.</p>
+              <div class="project-tags"><span>Python</span><span>Vosk</span><span>Tkinter</span><span>TTS</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>78%</strong></div>
+                <div class="completion-bar"><i style="--value:78%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="novaandroid" data-cats="app ai" tabindex="0" role="button" aria-label="Apri il progetto Nova Mobile">
+            <div class="project-media">
+              <div class="cover cover-novam" aria-hidden="true">
+                <div class="nova-mobile-orb"></div>
+                <div class="mini-phone">
+                  <span class="mini-notch"></span>
+                  <div class="orb"></div>
+                  <span class="voice-line">“Apri le note”</span>
+                  <div class="voice-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                </div>
+                <span class="nm-label">VOICE · FLUTTER PROTOTYPE</span>
+              </div>
+              <span class="project-status status-prototype"><i></i> Prototipo</span>
+              <span class="project-number">12</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>App · Voice prototype</span><span>2026</span></div>
+              <h3>Nova Mobile</h3>
+              <p>Prototipo Flutter separato da Nova: interfaccia vocale STT/TTS e concept UI. Manca ancora il ponte MethodChannel nativo.</p>
+              <div class="project-tags"><span>Flutter</span><span>Dart</span><span>STT / TTS</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>38%</strong></div>
+                <div class="completion-bar"><i style="--value:38%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card wide reveal" data-project="sicilian" data-cats="game" tabindex="0" role="button" aria-label="Apri il progetto Sicilian Delight">
+            <div class="project-media">
+              <div class="cover cover-sicilian" aria-hidden="true">
+                <div class="texture-mosaic">
+                  <img src="assets/projects/arancino.png" alt="" />
+                  <img src="assets/projects/ragu.png" alt="" />
+                  <img src="assets/projects/cooked_rice.png" alt="" />
+                  <img src="assets/projects/battered_arancino.png" alt="" />
+                  <img src="assets/projects/breadcrumbs.png" alt="" />
+                  <img src="assets/projects/arancino_mold.png" alt="" />
+                </div>
+                <span class="sicilian-shade"></span>
+                <div class="sicilian-title"><span>MINECRAFT FORGE 1.20.1</span><strong>SICILIAN<br />DELIGHT</strong></div>
+                <div class="sicilian-badge">ARANCINO<br />CRAFTING</div>
+              </div>
+              <span class="project-status status-progress"><i></i> In debug</span>
+              <span class="project-number">13</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Game · Mod Minecraft</span><span>2025</span></div>
+              <h3>Sicilian Delight</h3>
+              <p>Mod Forge 1.20.1 con la filiera dell'arancino: ingredienti, ricette e texture pixel art. Compila in JAR ma va in crash al caricamento.</p>
+              <div class="project-tags"><span>Java</span><span>Minecraft Forge</span><span>Pixel art</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>64%</strong></div>
+                <div class="completion-bar"><i style="--value:64%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="portfolio" data-cats="web" tabindex="0" role="button" aria-label="Apri il progetto Questo portfolio">
+            <div class="project-media">
+              <div class="cover cover-portfolio" aria-hidden="true">
+                <div class="mini-site">
+                  <div class="mini-nav"><span>GM</span><i></i><i></i><i></i></div>
+                  <div class="mini-hero">
+                    <strong>Giovanni<br /><span>Mugavero</span></strong>
+                    <div class="mini-lines"></div>
+                  </div>
+                  <div class="mini-cards"><span></span><span></span><span></span></div>
+                </div>
+                <span class="pf-badge">HTML · CSS · JS</span>
+              </div>
+              <span class="project-status status-live"><i></i> Online</span>
+              <span class="project-number">14</span>
+              <span class="project-open-hint">Apri caso studio <span>↗</span></span>
+            </div>
+            <div class="project-content">
+              <div class="project-kicker"><span>Web · Questo sito</span><span>2026</span></div>
+              <h3>Questo portfolio</h3>
+              <p>Il sito che stai guardando: HTML, CSS e JavaScript senza framework, font e asset locali, animazioni e schede progetto interattive.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="completion">
+                <div class="completion-head"><span>Completamento</span><strong>96%</strong></div>
+                <div class="completion-bar"><i style="--value:96%"></i></div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="projects-footnote reveal">
+          <span>Nota onesta:</span> le percentuali indicano lo stato reale del progetto, non quanto ci ho messo.
+          Alcuni sono in uso, altri sono laboratori ancora aperti. Tutti mi hanno insegnato qualcosa.
+        </p>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-top reveal">
+          <span class="section-num">04</span>
+          <span class="section-label">Esperienze</span>
+          <span class="section-line"></span>
+          <span class="section-note">Lavoro, scuola, robotica</span>
+        </div>
+
+        <div class="section-heading reveal">
+          <h2 class="section-title">
+            Imparare anche<br />
+            <span class="gradient-text">fuori dal codice.</span>
+          </h2>
+          <p>
+            La segreteria mi ha insegnato ad ascoltare. La robotica mi ha insegnato
+            a mantenere la calma quando qualcosa non funziona davanti a cento persone.
+          </p>
+        </div>
+
+        <div class="experience-layout">
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-year">2026</div>
+              <div class="timeline-card">
+                <div class="timeline-head">
+                  <div><h3>Segretario</h3><span>CAF / Patronato</span></div>
+                  <span class="timeline-tag">Lavoro</span>
+                </div>
+                <p>Accoglienza clienti, gestione chiamate e supporto nella compilazione delle pratiche.</p>
+                <ul>
+                  <li>Elaborazione di PAD, deleghe, modelli 730 e pratiche fiscali</li>
+                  <li>Attivazione SPID e gestione documentazione</li>
+                  <li>Organizzazione e archiviazione dei documenti</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-year">2025—26</div>
+              <div class="timeline-card">
+                <div class="timeline-head">
+                  <div><h3>Arbitro di gara</h3><span>Nazionali di Robotica · Misterbianco</span></div>
+                  <span class="timeline-tag">Eventi</span>
+                </div>
+                <p>Gestione delle gare, rispetto delle regole e coordinamento dei team durante le competizioni.</p>
+                <ul>
+                  <li>Arbitraggio delle sfide tra istituti</li>
+                  <li>Supporto ai partecipanti e gestione dei tempi</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-year">2025—26</div>
+              <div class="timeline-card">
+                <div class="timeline-head">
+                  <div><h3>Staff organizzativo</h3><span>Regionali di Robotica · STMicroelectronics, Catania</span></div>
+                  <span class="timeline-tag">Eventi</span>
+                </div>
+                <p>Parte del team che organizza e fa funzionare una competizione di robotica regionale.</p>
+                <ul>
+                  <li>Preparazione degli spazi e logistica</li>
+                  <li>Accoglienza di scuole, studenti e visitatori</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-year">2024</div>
+              <div class="timeline-card">
+                <div class="timeline-head">
+                  <div><h3>Segretario</h3><span>Azienda · esperienza occasionale</span></div>
+                  <span class="timeline-tag">Lavoro</span>
+                </div>
+                <p>Supporto amministrativo e gestione documentale in un contesto reale.</p>
+                <ul>
+                  <li>Gestione e organizzazione di documenti</li>
+                  <li>Firma e registrazione di ricevute</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-year">2022—26</div>
+              <div class="timeline-card">
+                <div class="timeline-head">
+                  <div><h3>Informatica</h3><span>IT Archimede, Catania</span></div>
+                  <span class="timeline-tag">Formazione</span>
+                </div>
+                <p>Quinto anno, indirizzo Informatica. Basi di programmazione, sistemi, reti e progettazione software.</p>
+                <ul>
+                  <li>Cambridge C1 in preparazione</li>
+                  <li>Certificazione Full Stack Developer in preparazione</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <aside class="experience-aside reveal">
+            <div class="aside-card">
+              <span class="aside-label">In numeri</span>
+              <div class="aside-stat"><strong>2</strong><span>esperienze in segreteria</span></div>
+              <div class="aside-stat"><strong>2</strong><span>eventi di robotica</span></div>
+              <div class="aside-stat"><strong>1</strong><span>corso di robotica</span></div>
+              <div class="aside-stat"><strong>5°</strong><span>anno di Informatica</span></div>
+            </div>
+
+            <div class="aside-card aside-highlight">
+              <span class="aside-label">La lezione più utile</span>
+              <blockquote>
+                “Se una persona non capisce quello che ho costruito, il problema non è della persona.”
+              </blockquote>
+              <p>Me lo ha insegnato la segreteria, prima ancora del design.</p>
+            </div>
+
+            <a class="aside-card aside-link" href="assets/Giovanni-Mugavero-CV.pdf" target="_blank" rel="noreferrer">
+              <span>Apri il CV completo</span>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M8 5h7v7" /></svg>
+            </a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section toolkit" id="toolkit">
+      <div class="container">
+        <div class="section-top reveal">
+          <span class="section-num">05</span>
+          <span class="section-label">Toolbox</span>
+          <span class="section-line"></span>
+          <span class="section-note">Il setup quotidiano</span>
+        </div>
+
+        <div class="toolkit-head reveal">
+          <div>
+            <h2 class="section-title">
+              Gli strumenti<br />
+              <span class="gradient-text">del mestiere.</span>
+            </h2>
+          </div>
+          <p>Non conta quante tecnologie conosco: conta saper scegliere quella giusta e portarla fino in fondo.</p>
+        </div>
+
+        <div class="tool-grid reveal">
+          <div class="tool" style="--tool-color:#5aa7ff"><span class="tool-icon">VS</span><div><strong>VS Code</strong><small>Editor</small></div></div>
+          <div class="tool" style="--tool-color:#ffd45e"><span class="tool-icon">Py</span><div><strong>Python</strong><small>Backend · AI</small></div></div>
+          <div class="tool" style="--tool-color:#f7df1e"><span class="tool-icon">JS</span><div><strong>JavaScript</strong><small>Web</small></div></div>
+          <div class="tool" style="--tool-color:#e44d26"><span class="tool-icon">H5</span><div><strong>HTML5</strong><small>Markup</small></div></div>
+          <div class="tool" style="--tool-color:#2965f1"><span class="tool-icon">C3</span><div><strong>CSS3</strong><small>Design</small></div></div>
+          <div class="tool" style="--tool-color:#54c5f8"><span class="tool-icon">Fl</span><div><strong>Flutter</strong><small>App</small></div></div>
+          <div class="tool" style="--tool-color:#40c4ff"><span class="tool-icon">Da</span><div><strong>Dart</strong><small>App</small></div></div>
+          <div class="tool" style="--tool-color:#8cc84b"><span class="tool-icon">No</span><div><strong>Node.js</strong><small>Backend</small></div></div>
+          <div class="tool" style="--tool-color:#61dafb"><span class="tool-icon">Re</span><div><strong>React</strong><small>Frontend</small></div></div>
+          <div class="tool" style="--tool-color:#009688"><span class="tool-icon">Fa</span><div><strong>FastAPI</strong><small>API</small></div></div>
+          <div class="tool" style="--tool-color:#a78bfa"><span class="tool-icon">Ol</span><div><strong>Ollama</strong><small>AI locale</small></div></div>
+          <div class="tool" style="--tool-color:#c084fc"><span class="tool-icon">AI</span><div><strong>AI generativa</strong><small>Prompt · verifica</small></div></div>
+          <div class="tool" style="--tool-color:#c084fc"><span class="tool-icon">Ch</span><div><strong>ChromaDB</strong><small>Vector DB</small></div></div>
+          <div class="tool" style="--tool-color:#f1502f"><span class="tool-icon">Gi</span><div><strong>Git</strong><small>Versioning</small></div></div>
+          <div class="tool" style="--tool-color:#e6e6f0"><span class="tool-icon">GH</span><div><strong>GitHub</strong><small>Code</small></div></div>
+          <div class="tool" style="--tool-color:#00979d"><span class="tool-icon">Ar</span><div><strong>Arduino</strong><small>Hardware</small></div></div>
+          <div class="tool" style="--tool-color:#c51a4a"><span class="tool-icon">Pi</span><div><strong>Raspberry Pi</strong><small>Hardware</small></div></div>
+          <div class="tool" style="--tool-color:#00c4cc"><span class="tool-icon">Ca</span><div><strong>Canva</strong><small>Design</small></div></div>
+          <div class="tool" style="--tool-color:#d83b01"><span class="tool-icon">Of</span><div><strong>Office</strong><small>Documenti</small></div></div>
+          <div class="tool" style="--tool-color:#b8b8c8"><span class="tool-icon">Un</span><div><strong>Unity</strong><small>Base</small></div></div>
+          <div class="tool" style="--tool-color:#a4c639"><span class="tool-icon">MA</span><div><strong>App Inventor</strong><small>Mobile</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section goals" id="goals">
+      <div class="container">
+        <div class="section-top reveal">
+          <span class="section-num">06</span>
+          <span class="section-label">Obiettivi</span>
+          <span class="section-line"></span>
+          <span class="section-note">Dove sto andando</span>
+        </div>
+
+        <div class="goals-intro reveal">
+          <p class="goals-kicker">Il prossimo livello</p>
+          <h2>
+            Non voglio solo imparare<br />
+            a programmare. Voglio costruire<br />
+            <span class="gradient-text">cose che qualcuno usa.</span>
+          </h2>
+        </div>
+
+        <div class="goal-grid">
+          <article class="goal-card reveal">
+            <div class="goal-meta"><span>Ora</span><span class="goal-status">In cerca</span></div>
+            <h3>Un part-time<br />che lasci spazio<br />di crescere.</h3>
+            <p>Cerco un lavoro nei pomeriggi, dal lunedì al venerdì, dove poter imparare da persone più esperte e portare valore concreto.</p>
+            <div class="goal-foot"><span>Disponibilità</span><strong>Lun—Ven · pomeriggio</strong></div>
+          </article>
+
+          <article class="goal-card goal-card-accent reveal">
+            <div class="goal-meta"><span>2026</span><span class="goal-status">In preparazione</span></div>
+            <h3>Due certificazioni,<br />zero scorciatoie.</h3>
+            <p>Cambridge C1 di inglese e certificazione Full Stack Developer. Non per collezionare attestati, ma per avere basi più solide.</p>
+            <div class="goal-foot"><span>Stato</span><strong>In corso</strong></div>
+          </article>
+
+          <article class="goal-card reveal">
+            <div class="goal-meta"><span>Dopo</span><span class="goal-status">Direzione</span></div>
+            <h3>Diventare un<br />full-stack developer<br />completo.</h3>
+            <p>Dalla progettazione al deploy, passando per AI e prodotti che risolvono problemi reali. Con lo stesso approccio: costruire per capire.</p>
+            <div class="goal-foot"><span>Focus</span><strong>Web · AI · Prodotto</strong></div>
+          </article>
+        </div>
+
+        <div class="goals-strip reveal">
+          <div>
+            <span class="pulse-dot"></span>
+            <p><strong>Disponibile per</strong> part-time, stage, progetti freelance e collaborazioni.</p>
+          </div>
+          <a class="btn btn-primary" href="#contact">Iniziamo a parlare <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-glow" aria-hidden="true"></div>
+          <div class="section-top contact-top">
+            <span class="section-num">07</span>
+            <span class="section-label">Contatti</span>
+            <span class="section-line"></span>
+            <span class="section-note">Rispondo volentieri</span>
+          </div>
+
+          <div class="contact-main">
+            <div class="contact-copy">
+              <p class="contact-kicker">Hai un'idea, un progetto o un'opportunità?</p>
+              <h2>Parliamone.<br /><span class="gradient-text">Sul serio.</span></h2>
+              <p class="contact-desc">
+                Posso portare energia, curiosità e una buona dose di codice.
+                Se cerchi qualcuno che impari in fretta e non abbia paura di sporcarsi le mani,
+                scrivimi.
+              </p>
+              <div class="contact-actions">
+                <a class="btn btn-primary btn-large" href="mailto:mugaverogiovanni2506@gmail.com">
+                  Scrivimi una mail
+                  <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" /></svg>
+                </a>
+                <button class="btn btn-ghost btn-large copy-email" type="button" data-copy="mugaverogiovanni2506@gmail.com">
+                  <span class="copy-label">Copia email</span>
+                  <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 7h9v9H7z" /><path d="M4 13H3V4h9v1" /></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-details">
+              <a class="contact-item" href="mailto:mugaverogiovanni2506@gmail.com">
+                <span class="contact-icon">@</span>
+                <div><small>Email</small><strong>mugaverogiovanni2506@gmail.com</strong></div>
+                <span class="contact-arrow">↗</span>
+              </a>
+              <a class="contact-item" href="tel:+393276613342">
+                <span class="contact-icon">☎</span>
+                <div><small>Telefono</small><strong>327 661 3342</strong></div>
+                <span class="contact-arrow">↗</span>
+              </a>
+              <div class="contact-item">
+                <span class="contact-icon">⌖</span>
+                <div><small>Dove sono</small><strong>Misterbianco (CT) · Italia</strong></div>
+              </div>
+              <a class="contact-item" href="assets/Giovanni-Mugavero-CV.pdf" target="_blank" rel="noreferrer">
+                <span class="contact-icon">↓</span>
+                <div><small>Curriculum</small><strong>Scarica il PDF</strong></div>
+                <span class="contact-arrow">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-foot">
+            <span><i class="pulse-dot"></i> Disponibile dal lunedì al venerdì, nel pomeriggio.</span>
+            <span>Patente A1 e B · mezzo proprio</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">GM</span>
+        <div>
+          <strong>Giovanni Mugavero</strong>
+          <span>Full Stack Developer in formazione · Misterbianco (CT)</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#projects">Progetti</a>
+        <a href="#goals">Obiettivi</a>
+        <a href="mailto:mugaverogiovanni2506@gmail.com">Email</a>
+        <a href="assets/Giovanni-Mugavero-CV.pdf" target="_blank" rel="noreferrer">CV</a>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Giovanni Mugavero. Progettato e sviluppato da me.</span>
+        <span class="footer-local"><i></i> <span data-clock>Europe/Rome</span></span>
+        <a class="back-top" href="#home">Torna su <span>↑</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" aria-label="Chiudi il dettaglio" data-close-modal>
+        <span></span><span></span>
+      </button>
+      <div class="modal-visual" id="modalVisual"></div>
+      <div class="modal-content">
+        <div class="modal-head">
+          <div>
+            <span class="modal-kicker" id="modalKicker"></span>
+            <h2 id="modalTitle"></h2>
+            <p class="modal-subtitle" id="modalSubtitle"></p>
+          </div>
+          <div class="modal-ring" id="modalRing" style="--p:0">
+            <span><strong id="modalPercent">0</strong>%</span>
+            <small>completato</small>
+          </div>
+        </div>
+        <p class="modal-summary" id="modalSummary"></p>
+        <div class="modal-columns">
+          <div>
+            <h3>Cosa c'è dentro</h3>
+            <ul class="modal-features" id="modalFeatures"></ul>
+          </div>
+          <div>
+            <h3>Stack &amp; strumenti</h3>
+            <div class="modal-tech" id="modalTech"></div>
+            <div class="modal-note" id="modalNote"></div>
+          </div>
+        </div>
+        <div class="modal-foot">
+          <div class="modal-nav">
+            <button type="button" class="modal-arrow" id="modalPrev" aria-label="Progetto precedente">←</button>
+            <span id="modalIndex">01 / 14</span>
+            <button type="button" class="modal-arrow" id="modalNext" aria-label="Progetto successivo">→</button>
+          </div>
+          <a class="btn btn-primary" href="#contact" data-close-modal>Parliamone <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <noscript>
+    <style>.project-modal{display:none}</style>
+  </noscript>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
