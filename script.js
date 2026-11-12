@@ -235,7 +235,7 @@
     portfolio: {
       kicker: 'Web · Questo sito',
       subtitle: 'Il portfolio che stai guardando',
-      percent: 96,
+      percent: 100,
       summary:
         'Un sito statico senza framework e senza build: HTML, CSS e JavaScript scritti a mano. Include design system, animazioni al scroll, filtri, schede progetto, modale di dettaglio e asset completamente locali.',
       features: [
