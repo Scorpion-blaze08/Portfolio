@@ -827,7 +827,7 @@ img {
 .hero-line {
   display: block;
   overflow: hidden;
-  padding-bottom: 0.055em;
+  padding-bottom: 0.08em;
 }
 
 .hero-line > span {
@@ -837,12 +837,12 @@ img {
 }
 
 .hero-line-accent {
-  padding-bottom: 0.01em;
+  padding-bottom: 0.16em;
 }
 
 .hero-line-accent > span {
-  padding-right: 0.12em;
-  font-size: 0.94em;
+  padding-right: 0.2em;
+  font-size: 0.9em;
   background: var(--gradient);
   -webkit-background-clip: text;
   background-clip: text;
