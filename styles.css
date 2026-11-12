@@ -841,7 +841,8 @@ img {
 }
 
 .hero-line-accent > span {
-  padding-right: 0.06em;
+  padding-right: 0.12em;
+  font-size: 0.94em;
   background: var(--gradient);
   -webkit-background-clip: text;
   background-clip: text;
